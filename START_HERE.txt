@@ -1,0 +1,26 @@
+AI SHOKUGYO TEST - WINDOWS 11 APK BUILD KIT
+
+Extract this ZIP so the project is at:
+C:\AIShokugyoTestAPK
+
+Double-click:
+C:\AIShokugyoTestAPK\build.bat
+
+First run requires internet, free disk space (several GB), and may take time.
+The script downloads JDK 17, Gradle 8.9, and Android SDK to .build-tools.
+No Android Studio installation is needed.
+After a successful build:
+C:\AIShokugyoTestAPK\output\AIShokugyoTest.apk
+
+Copy that APK to a USB drive. On an Android phone, open the APK
+from the USB drive using a file manager and approve installation.
+
+This is a build kit, not a pre-built APK.
+Windows build and Android device behavior have NOT been verified here.
+Only install the SDK tools if you trust the official download sources.
+If build fails, copy the console error message for troubleshooting.
+
+Assets: app\src\main\assets\1, 2, 3, 9
+1=home background; 2=launcher icon; 3=shared background; 9=form background.
+PNG/JPG/JPEG are picked at build time, not after installing the APK.
+The app stores applicant data locally; no chat/image messaging.

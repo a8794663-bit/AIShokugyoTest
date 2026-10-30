@@ -1,0 +1,12 @@
+V4 changes from the verified-on-user-device V3 baseline:
+- Selected robot image is launcher icon and centered on home.
+- Form applicant number generated randomly 1..9999; duplicates allowed.
+- Removed form admin code.
+- Five required form fields are stored locally, then sent to the fixed recipient without opening an email app.
+- FormSubmit AJAX is used as a third-party email relay. FIRST USE REQUIRES recipient verification via activation email; delivery is not guaranteed.
+- Random grade and independent random career type.
+- Lookup can find duplicate numbers; latest matching record shown.
+IMPORTANT: Email address is hidden from the app UI but extractable from APK. Form data is transmitted to FormSubmit over HTTPS. Do not use real personal information until the relay is activated and tested.
+BUILD: Extract to C:\AIShokugyoTestAPK then double-click build.bat.
+APK output: C:\AIShokugyoTestAPK\output\AIShokugyoTest.apk
+Not compiled or tested on Android in this environment.
